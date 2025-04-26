@@ -22,13 +22,16 @@ It's recommended to use a virtual environment:
 
 python -m venv venv
 source venv/bin/activate   # On Windows use: venv\Scripts\activate
+
 3. Install dependencies
 Make sure you have installed requirements.txt.
 
 pip install -r requirements.txt
 
+4. Run Ollama in background.
 
-4. Run the Streamlit app
+
+5. Run the Streamlit app
 streamlit run streamlit.py
 This will open the web app in your browser at http://localhost:8501.
 
