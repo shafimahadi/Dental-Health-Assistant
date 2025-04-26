@@ -15,26 +15,20 @@ Designed for accessibility and educational purposes in dental health
 
 🚀 How to Run the Dental Health Assistant Locally
 1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/shafimahadi/Dental-Health-Assistant.git
 cd your-repo-name
-2. Set up a Python environment
+3. Set up a Python environment
 It's recommended to use a virtual environment:
 
 python -m venv venv
 source venv/bin/activate   # On Windows use: venv\Scripts\activate
 3. Install dependencies
-Make sure you have requirements.txt (if you don't, I can help you create it).
+Make sure you have installed requirements.txt.
 
 pip install -r requirements.txt
 
 
 4. Run the Streamlit app
-bash
-Copy
-Edit
 streamlit run streamlit.py
 This will open the web app in your browser at http://localhost:8501.
 
